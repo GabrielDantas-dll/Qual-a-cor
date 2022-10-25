@@ -1,0 +1,21 @@
+html, body, .App {
+    height: 100vh;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess-me {
+    width: 200px;
+    height: 200px;
+}
+
+.wrong {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    display: block;
+}
